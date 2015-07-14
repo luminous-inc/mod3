@@ -1,0 +1,139 @@
+/** {
+	border: 1px solid red !important;
+}*/
+
+#header {
+	background: url(../images/desk.jpg)  fixed 50% / cover;
+  	margin: 0 auto; 
+  	width: 100%; 
+ 	padding: 2%;
+  	height: 700px; /*height of header pic 500 short or 600*/
+}
+.invisibi-text {
+	background-color: transparent;
+	box-shadow: 0 0 20px rgba(0,0,0,0);
+	padding: .1%;
+	color: black;
+}
+.navbar {
+	margin-bottom: 0;
+}
+.three-buttons {
+	margin-top: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 200px;
+}
+h4.spaced {
+  line-height: 200%
+}
+.lightmar {
+	margin-top: 11px;
+	margin-left: 0;
+}
+.teammar {
+	margin-right: 0;
+}
+@media screen and (max-width: 991px) {
+	.three-buttons {
+		margin-top: 3%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 15px;
+		width: 100px;
+		height: 100px;
+	}
+	#header {
+	  	height: 530px;
+	}
+}
+@media screen and (max-width: 773px) {W
+	#header {
+	  	height: 590px;
+	}
+}
+@media screen and (max-width: 767px) {
+	#header {
+	  	height: 485px;
+	}
+}
+.fontlato {
+  font-family: "Lato", sans-serif;
+}
+body.grey {
+	background: url(../images/grey.jpg) center;
+	background-size: 50px 50px;
+  	background-size: 50px 50px;
+  	background-size: 50px 50px;
+  	background-size: 50px 50px;
+}
+.notepad {
+	border-radius: 5px;
+	background: #fff;
+	padding: 20px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.2);
+}
+.videomar {
+  margin-bottom: 15% !important;
+}
+.grey h1 {
+	color: #4F5C78;
+}
+.grey h2 {
+	color: #4F5C78;
+}
+body.grey {
+	color: #1b1c31;
+	font-weight: 300;
+}
+.h2mar {
+  margin-top: 0 !important;
+}
+.titlemar {
+  margin-top: 7%;
+}
+.topmar {
+	margin-top: 0;
+}
+.notemar {
+  margin-bottom: 7%;
+}
+.notebtn {
+  margin-top: 2% !important;
+}
+.notefont {
+  font-family: Verdana !important; 
+}
+.parapic {
+  margin-bottom: 6%;
+}
+.footmar {
+	margin-top: 2%;
+}
+.panel-default > .panel-heading {
+    cursor: pointer;
+	background-color: #5EB268;
+	padding-top: 2px;
+	padding-bottom: 15px;
+	border-radius: 4px 4px 0px 0px;
+	border-bottom: 1px solid #469350;
+	box-shadow: 0 1px 5px rgba(0,0,0,.2);
+}
+p.spaced {
+  line-height: 200%
+}
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.spacemar {
+	margin-top: 4%;
+	margin-bottom: 5%;
+}
+.clausepad {
+	margin-top: 2%;
+}
